@@ -1,0 +1,136 @@
+<!-- blog.html -->
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog - Artikel</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+  <style>
+    .animate-up {
+      transition: transform 0.3s ease-in-out;
+    }
+    .animate-up:hover {
+      transform: translateY(-5px);
+    }
+    .map-container {
+      position: relative;
+      padding-bottom: 56.25%;
+      height: 0;
+      overflow: hidden;
+      border-radius: 10px;
+    }
+    .map-container iframe {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      border: 0;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html">Rolin Njurumana</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link" href="index.html">Beranda</a></li>
+        <li class="nav-item"><a class="nav-link" href="tentang.html">Tentang Saya</a></li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="portofolio.html" id="navbarDropdown" role="button" data-toggle="dropdown">
+            Portofolio
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="portofolio.html">Proyek Portofolio</a>
+            <a class="dropdown-item" href="gambar (2).html">Proyek Galeri</a>
+            <a class="dropdown-item" href="karya.html">Proyek Karya</a>
+          </div>
+        </li>
+        <li class="nav-item"><a class="nav-link" href="kontak.html">Kontak</a></li>
+        <li class="nav-item"><a class="nav-link active" href="blog.html">Blog</a></li>
+        <li class="nav-item"><a class="nav-link" href="testimoni.html">Testimoni</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Konten Blog -->
+  <section class="p-5 bg-light">
+    <div class="container">
+      <h2 class="mb-4">Artikel Terbaru</h2>
+
+      <!-- Artikel 1 -->
+      <div class="card mb-4 shadow animate-up">
+        <div class="card-body">
+          <h4 class="card-title">Kuliah di UNKRISWINA Sumba Sambil Bangun Usaha Kentang Crispy</h4>
+          <p><small>Diposting pada 19 Juni 2025</small></p>
+          <p>
+            Hai semuanya! Perkenalkan, saya Rolin Njurumana, mahasiswa Universitas Kristen Wira Wacana Sumba (UNKRISWINA Sumba).
+            Kuliah di kampus ini bukan cuma belajar teori, tapi juga mengasah kreativitas dan semangat wirausaha.
+          </p>
+          <p>
+            Saya membangun usaha kecil jualan kentang crispy 🍟. Dari hobi ngemil dan eksperimen resep, kini saya bisa menghasilkan uang sendiri sambil kuliah.
+            Dengan jadwal kuliah fleksibel, saya bisa tetap fokus belajar dan berwirausaha.
+          </p>
+          <a href="#" class="btn btn-outline-primary btn-sm">Baca Selengkapnya</a>
+        </div>
+      </div>
+
+      <!-- Artikel 2 -->
+      <div class="card mb-4 shadow animate-up">
+        <div class="card-body">
+          <h4 class="card-title">📍 Lokasi Usaha Kentang Crispy</h4>
+          <p><small>Diposting pada 19 Juni 2025</small></p>
+          <p>
+            Usaha Kentang Crispy by Rolin dijalankan di sekitar kampus <strong>UNKRISWINA Sumba</strong>, tepatnya di <strong>Waingapu, Sumba Timur, NTT</strong>.
+          </p>
+          <p>
+            Setiap sore sepulang kuliah, saya mulai mengolah kentang segar, menggoreng, dan melayani pembeli — baik dari kalangan mahasiswa, dosen, maupun warga sekitar.
+            Saya juga melayani pemesanan via <strong>WhatsApp & Instagram</strong>, dan sering ikut bazar kampus untuk promosi.
+          </p>
+          <p>
+            🌶 Varian rasa yang tersedia:
+            <ul>
+              <li>Balado</li>
+              <li>Keju</li>
+              <li>BBQ</li>
+              <li>Pedas Level</li>
+              <li>Original</li>
+            </ul>
+          </p>
+
+          <!-- Google Maps Embed sesuai tautan -->
+          <h5 class="mt-4">Lihat Lokasi di Peta</h5>
+          <div class="map-container mt-2 mb-3">
+            <iframe 
+              src="https://www.google.com/maps/embed?pb=!4v1718790586009!6m8!1m7!1sCAoSLEFGMVFpcFBFZldCSWpxclhWenRMbFdydk55R0VuX2NkeHhtT3BKVmdZaUVT!2m2!1d-9.6551393!2d120.2545857!3f0!4f0!5f0.7820865974627469" 
+              allowfullscreen="" 
+              loading="lazy" 
+              referrerpolicy="no-referrer-when-downgrade">
+            </iframe>
+          </div>
+
+          <p class="text-center">
+            <a href="https://maps.app.goo.gl/fDYjFULTHgGAEs2c6" target="_blank" class="btn btn-success btn-sm">
+              📍 Lihat di Google Maps
+            </a>
+          </p>
+
+          <a href="#" class="btn btn-outline-primary btn-sm">Baca Selengkapnya</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Footer -->
+  <footer class="bg-dark text-white text-center p-3">
+    &copy; 2025 Rolin Njurumana
+  </footer>
+</body>
+</html>

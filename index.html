@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portofolio Pribadi</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+<!-- Tambahan untuk dropdown -->
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.2/dist/js/bootstrap.bundle.min.js"></script>
+</head>
+
+<body>
+  <!-- Navbar -->
+  <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+    <a class="navbar-brand" href="index.html">Rolin Njurumana</a>
+    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ml-auto">
+        <li class="nav-item"><a class="nav-link active" href="index.html">Beranda</a></li>
+        <li class="nav-item"><a class="nav-link" href="tentang.html">Tentang Saya</a></li>
+        
+        <!-- Dropdown Portofolio -->
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown">
+            Portofolio
+          </a>
+          <div class="dropdown-menu">
+            <a class="dropdown-item" href="portofolio.html">Proyek portofolio</a>
+            <a class="dropdown-item" href="gambar (2).html">Proyek Galeri</a>
+            <a class="dropdown-item" href="karya.html">Proyek karya</a>
+          </div>
+        </li>
+
+        <li class="nav-item"><a class="nav-link" href="kontak.html">Kontak</a></li>
+        <li class="nav-item"><a class="nav-link" href="blog.html">Blog</a></li>
+        <li class="nav-item"><a class="nav-link" href="testimoni.html">Testimoni</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Beranda -->
+  <section id="home" class="p-5 text-center" style="background-image: url('Gambar 2.jpg'); background-size: cover; background-position: center; color: white;">
+  <h1>Halo, saya Rolin Njurumana</h1>
+  <p>Seorang mahasiswa & Desainer</p>
+  <img src="Gambar 1.png" alt="Foto Profil" class="rounded-circle" width="250">
+</section>
+
+  <!-- Tentang Saya -->
+  <section id="about" class="p-5">
+    <div class="container">
+      <h2>Tentang Saya</h2>
+      <p>Biodata singkat saya di sini.</p>
+      <ul>
+        <li>Pendidikan: [S1 Teknik Informatika]</li>
+        <li>Pengalaman: [usaha kentang crispy]</li>
+        <li>Keterampilan:[mengedit gambar dan video]</li>
+      </ul>
+    </div>
+  </section>
